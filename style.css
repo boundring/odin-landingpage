@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -10,7 +12,7 @@ body {
   display: flex;
   flex: 0 0 auto;
   margin: 0;
-  padding: 20px 80px;
+  padding: 20px 100px;
   background-color: #1F2937;
 }
 
@@ -20,7 +22,7 @@ body {
   margin: 0 auto 0 0;
 }
 
-.headerlinks {
+.header div {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
@@ -29,7 +31,7 @@ body {
   padding: 0;
 }
 
-.headerlinks a {
+.header a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7ebb4;
@@ -42,7 +44,7 @@ body {
   display: flex;
   flex: 0 0 auto;
   margin: 0;
-  padding: 80px;
+  padding: 60px 100px;
   gap: 15px;
 }
 
@@ -75,13 +77,128 @@ body {
 
 /* Section B */
 
+.B {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  padding: 0 100px 60px;
+}
+
+.BtopText {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0px;
+}
+
+.Bimages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.Bimages div {
+  display: flex;
+  flex: 0;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.B a {
+  margin: 0;
+  padding: 0;
+}
+
+.B img {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.B div p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
 /* Section C */
 
+.C {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 60px 0;
+
+}
+
+.quote {
+  text-align: left;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0 130px 0 150px;
+  padding: 0;
+}
+
+.attrib {
+  text-align: right;
+  font-weight: bold;
+  margin: 5px 150px 0 0;
+}
 
 /* Section D */
 
+.D {
+  padding: 60px 100px;
+}
 
+.Dbox {
+  display: flex;
+  flex: 0 0 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 8px;
+  margin: 0;
+  padding: 30px;
+}
+
+.DLeftTopText {
+  font-size: 20px;
+  color: white;
+  margin: 0 0 5px 0;
+}
+
+.DLeftBottomText {
+  color:rgba(255, 255, 255, 0.644);
+  margin: 5px 0 0;
+}
+
+.D button {
+  height: 30px;
+  width: auto;
+  flex: 0 0 auto;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  background-color: #3882F6;
+  margin: 0 0 0 40px;
+  padding: 6px 25px;
+}
 
 /* footer */
 .footer {
@@ -89,7 +206,9 @@ body {
 }
 
 .footer p {
-  font-size: 18px;
+  font-size: 15px;
   color: #818a9e;
   text-align: center;
+  margin: 0;
+  padding: 20px 0;
 }
